@@ -1,55 +1,74 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <script type="module" src="https://cdn.jsdelivr.net/gh/domyid/tracker@latest/index.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio Pribadi</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body> 
+
+    <!-- Header -->
     <header>
-        <img src="bagus.jpg" alt="Foto Profil" class="profile-img">
-        <h1>Muhammad bagus </h1>
-        <p>Web Developer | Designer | Freelancer</p>
+        <div class="container">
+            <img src="bagus.jpg" alt="Foto Profil" class="profile-img">
+            <h1>Muhammad Bagus</h1>
+            <p>Web Developer | Designer | Freelancer</p>
+        </div>
     </header>
-    
+
+    <!-- Tentang Saya -->
     <section id="about">
         <h2>Tentang Saya</h2>
-        <p>Saya seorang mahasiswa teknik informatika yang sedang belajar  web developer yang memiliki passion dalam menciptakan pengalaman digital yang menarik dan fungsional.</p>
+        <p>Saya seorang mahasiswa teknik informatika yang sedang belajar web developer dengan passion dalam menciptakan pengalaman digital yang menarik dan fungsional.</p>
     </section>
-    
+
+    <!-- Keterampilan -->
     <section id="skills">
         <h2>Keterampilan</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>UI/UX Design</li>
-        </ul>
+        <div class="skills-grid">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>UI/UX Design</span>
+            <span>AutoCAD</span>
+            <span>SketchUp</span>
+        </div>
     </section>
-    
+
+    <!-- Proyek -->
     <section id="projects">
-        <h2>Proyek 1</h2>
-        <div class="project">
-            <img src="logo alga.png" alt="Proyek 1">
-            <h3>Proyek 1</h3>
-            <p>dalam proyek 1 ini saya diminta oleh client untuk membuat website sebuah bengkel motor dan mobil.</p>
-        </div>
-        <div class="project">
-            <img src="project2.jpg" alt="Proyek 2">
-            <h3>Proyek 2</h3>
-            <p>Deskripsi singkat tentang proyek yang telah dikerjakan.</p>
+        <h2>Proyek</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="logo alga.png" alt="Proyek 1">
+                <h3>Website Bengkel</h3>
+                <p>Membantu client membuat website untuk bengkel motor dan mobil.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Proyek 2">
+                <h3>Desain UI Aplikasi</h3>
+                <p>Membuat desain UI/UX aplikasi e-commerce.</p>
+            </div>
         </div>
     </section>
-    
+
+    <!-- Kontak -->
     <section id="contact">
         <h2>Kontak</h2>
-        <p>Email: mbagus0111@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/namaanda</p>
+        <div class="contact-links">
+            <a href="mailto:mbagus0111@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="https://www.linkedin.com/in/muhammad-bagus-9b1971246" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://wa.me/62851573922215" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://www.instagram.com/bagustriatmaja__" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
     </section>
-    
+
+    <!-- Footer -->
     <footer>
-        <p></p>
+        <p>&copy; 2025 Muhammad Bagus. All Rights Reserved.</p>
     </footer>
+
 </body>
 </html>
