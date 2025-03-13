@@ -11,7 +11,7 @@ body {
 /* Header */
 header {
     background: linear-gradient(90deg, #333435, #92969b);
-    padding: 2rem 0;
+    padding: 3rem 0;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ section {
     width: 90%;
     max-width: 800px;
     background: #57575e;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -47,6 +47,7 @@ section {
     padding: 10px 15px;
     border-radius: 5px;
     font-weight: bold;
+    justify-content: center;
 }
 
 /* Projects */
@@ -58,7 +59,7 @@ section {
 
 .project {
     background: #747482;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 10px;
     transition: transform 0.3s;
 }
@@ -99,7 +100,10 @@ section {
 /* Footer */
 footer {
     background: #898c91;
-    padding: 1.5rem;
+    padding: 2rem;
     margin-top: 2rem;
+    justify-content: center;
 }
+
+
 
