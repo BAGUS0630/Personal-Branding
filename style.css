@@ -80,7 +80,6 @@ section {
     justify-content: center;
     gap: 20px;
 }
-
 /* Import Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
@@ -120,6 +119,7 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
+
 .contact-links a {
     color: white;
     text-decoration: none;
@@ -139,31 +139,9 @@ nav ul li a:hover {
 /* Footer */
 footer {
     background: #898c91;
-    padding: 2rem;
+    padding: 3rem;
     margin-top: 2rem;
     justify-content: center;
-}
-
-/* Responsif untuk perangkat mobile */
-@media (max-width: 768px) {
-    nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .skills-grid {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .projects-container {
-        grid-template-columns: 1fr;
-    }
-
-    .contact-links {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 
