@@ -1,9 +1,9 @@
 /* General */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #dddde6;
+    background-color: #f9f9f9;
     color: #ffffff;
     text-align: center;
 }
@@ -11,13 +11,13 @@ body {
 /* Header */
 header {
     background: linear-gradient(90deg, #333435, #92969b);
-    padding: 3rem 0;
+    padding: 2rem 0;
     text-align: center;
 }
 
 .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 3px solid #fff;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
@@ -25,8 +25,8 @@ header {
 
 /* Sections */
 section {
-    padding: 3rem;
-    margin: 2rem auto;
+    padding: 2rem;
+    margin: 1.5rem auto;
     width: 90%;
     max-width: 800px;
     background: #57575e;
@@ -47,14 +47,14 @@ section {
     padding: 10px 15px;
     border-radius: 5px;
     font-weight: bold;
-    justify-content: center;
 }
 
 /* Projects */
 .projects-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
+    padding: 1rem;
 }
 
 .project {
@@ -73,23 +73,7 @@ section {
     border-radius: 10px;
 }
 
-/* Kontak */
-.contact-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-}
-
+/* Navigation */
 nav {
     background-color: #333;
     padding: 15px 0;
@@ -104,7 +88,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 10px;
 }
 
 nav ul li a {
@@ -119,6 +103,14 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
+/* Contact */
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 1rem;
+}
 
 .contact-links a {
     color: white;
@@ -139,10 +131,38 @@ nav ul li a:hover {
 /* Footer */
 footer {
     background: #898c91;
-    padding: 3rem;
+    padding: 2rem;
     margin-top: 2rem;
-    justify-content: center;
+    text-align: center;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 1.5rem 0;
+    }
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+    section {
+        padding: 1.5rem;
+    }
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+        text-align: center;
+    }
+    .projects-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .contact-links {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 
 
 
