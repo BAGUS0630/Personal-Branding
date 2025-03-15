@@ -115,6 +115,7 @@ nav ul li a:hover {
 .contact-links a {
     color: white;
     text-decoration: none;
+    text-align: center;
     background: #94999f;
     padding: 10px 15px;
     border-radius: 5px;
